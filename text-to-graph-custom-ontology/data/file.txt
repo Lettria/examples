@@ -1,0 +1,19 @@
+In the domain of our ontology, we define various classes such as Departments, Employees, External, Human_Resource, Intern, Internal, International, Junior, Local, Manager, Marketing, Office, Operations, and Senior.
+
+We establish relationships using object properties like 'has,' 'have,' 'is_a_kind_of,' 'is_a_part_of,' 'sub-departments,' and 'types.' Additionally, we utilize data properties such as 'createdON,' 'depID,' 'empContact,' 'empID,' 'empName,' and 'joinedON.'
+
+Individuals are instances of classes, and we have named individuals like Harry, Hina, Sina, Tara, delhi_branch, france_branch, mumbai_branch, and opcore.
+
+Examples of class assertions include stating that Harry is a Senior, Hina is a Junior, Sina is a Manager, Tara is an Intern, delhi_branch is Local, france_branch is International, mumbai_branch is Human_Resource, and opcore is Operations.
+
+We assert data property values for individuals, like Harry's employee contact, ID, name, and joining date. Similar assertions are made for other individuals.
+
+Our ontology specifies the hierarchy of classes, stating that External is a type of Operations, Human_Resource is a type of Departments, Intern is a type of Employees, Internal is a type of Operations, International is a type of Marketing, Junior is a type of Employees, Local is a type of Marketing, Manager is a type of Employees, Marketing is a type of Departments, Operations is a type of Departments, and Senior is a type of Employees.
+
+We also express relationships between classes, such as stating that External departments are part of the Operations department, Human Resource departments are part of the overall Departments, and Sub-departments are equivalent to being a part of departments.
+
+Object properties like 'has' connect Offices with Departments, 'have' connects Departments with Employees, 'is_a_kind_of' connects Departments with their types, 'is_a_part_of' connects Marketing with its sub-departments, 'sub-departments' connects Operations with its sub-departments, and 'types' connects Employees with their types.
+
+Data properties like 'createdON' are associated with the creation date of Departments, 'depID' is associated with the department ID of Departments, 'empContact' is associated with the contact number of Employees, 'empID' is associated with the employee ID of Employees, 'empName' is associated with the name of Employees, and 'joinedON' is associated with the joining date of Employees.
+
+This abstracted text aims to capture the essence of our RDF ontology, providing a foundation for structuring and understanding the relationships within the data.
