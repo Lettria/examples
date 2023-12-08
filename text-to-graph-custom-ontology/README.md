@@ -20,4 +20,5 @@ pip install -r requirements.txt
 
 ## Usage
 
--   Run the notebook main.ipynb
+-   Run the notebook import_ontology.ipynb to import your ontology to Lettria.
+-   Run the notebook document_to_graph.ipynb to transform your text to RDF triples.
