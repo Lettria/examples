@@ -11,3 +11,13 @@ This is a simple example of how to use the Lettria API to import an ontology and
 -   You need to have a Project API key. Help center article [here](https://help.lettria.com/api-key)
 
 -   Edit the files inside the data folder to add your own ontology and text.
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+-   Run the notebook main.ipynb
